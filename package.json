@@ -1,15 +1,15 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "strapi-plugin-placeholder",
-  "version": "4.3.6",
+  "version": "4.9.2",
   "description": "Generate base64 placeholders for Strapi images",
   "author": {
-    "name": "@WalkingPizza",
-    "url": "https://github.com/WalkingPizza"
+    "name": "Jakob Lierman",
+    "url": "https://github.com/JakobLierman"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/WalkingPizza/strapi-plugin-placeholder"
+    "url": "https://github.com/JakobLierman/strapi-plugin-placeholder"
   },
   "strapi": {
     "name": "placeholder",
@@ -18,7 +18,7 @@
     "displayName": "Placeholder"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": ">=16.x.x <=18.x.x",
     "npm": ">=6.0.0"
   },
   "keywords": [
@@ -31,19 +31,19 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "@strapi/strapi": "^4.1.5",
+    "@strapi/strapi": "^4.9.2",
     "mime-types": "2.1.35",
-    "sharp": "^0.30.1",
+    "sharp": "^0.32.0",
     "yup": "^0.32.9"
   },
   "dependencies": {
-    "plaiceholder": "^2.3.0"
+    "plaiceholder": "^2.5.0"
   },
   "devDependencies": {
-    "eslint": "^8.12.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-node": "^11.1.0",
-    "prettier": "^2.6.1",
-    "yup": "^0.32.9"
+    "prettier": "^2.8.7",
+    "yup": "^1.1.1"
   }
 }
